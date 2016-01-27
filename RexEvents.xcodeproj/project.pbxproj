@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADB577D1C58404500DB28A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB577C1C58404500DB28A9 /* AppDelegate.swift */; };
+		DADB577F1C58404500DB28A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB577E1C58404500DB28A9 /* ViewController.swift */; };
+		DADB57821C58404500DB28A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADB57801C58404500DB28A9 /* Main.storyboard */; };
+		DADB57851C58404500DB28A9 /* RexEvents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DADB57831C58404500DB28A9 /* RexEvents.xcdatamodeld */; };
+		DADB57871C58404500DB28A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADB57861C58404500DB28A9 /* Assets.xcassets */; };
+		DADB578A1C58404500DB28A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADB57881C58404500DB28A9 /* LaunchScreen.storyboard */; };
+		DADB57951C58404500DB28A9 /* RexEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB57941C58404500DB28A9 /* RexEventsTests.swift */; };
+		DADB57A01C58404500DB28A9 /* RexEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB579F1C58404500DB28A9 /* RexEventsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADB57911C58404500DB28A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADB57711C58404500DB28A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADB57781C58404500DB28A9;
+			remoteInfo = RexEvents;
+		};
+		DADB579C1C58404500DB28A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADB57711C58404500DB28A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADB57781C58404500DB28A9;
+			remoteInfo = RexEvents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DADB57791C58404500DB28A9 /* RexEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RexEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB577C1C58404500DB28A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DADB577E1C58404500DB28A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DADB57811C58404500DB28A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADB57841C58404500DB28A9 /* RexEvents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RexEvents.xcdatamodel; sourceTree = "<group>"; };
+		DADB57861C58404500DB28A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADB57891C58404500DB28A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DADB578B1C58404500DB28A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADB57901C58404500DB28A9 /* RexEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RexEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB57941C58404500DB28A9 /* RexEventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RexEventsTests.swift; sourceTree = "<group>"; };
+		DADB57961C58404500DB28A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADB579B1C58404500DB28A9 /* RexEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RexEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB579F1C58404500DB28A9 /* RexEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RexEventsUITests.swift; sourceTree = "<group>"; };
+		DADB57A11C58404500DB28A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADB57761C58404500DB28A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB578D1C58404500DB28A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB57981C58404500DB28A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADB57701C58404500DB28A9 = {
+			isa = PBXGroup;
+			children = (
+				DADB577B1C58404500DB28A9 /* RexEvents */,
+				DADB57931C58404500DB28A9 /* RexEventsTests */,
+				DADB579E1C58404500DB28A9 /* RexEventsUITests */,
+				DADB577A1C58404500DB28A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADB577A1C58404500DB28A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADB57791C58404500DB28A9 /* RexEvents.app */,
+				DADB57901C58404500DB28A9 /* RexEventsTests.xctest */,
+				DADB579B1C58404500DB28A9 /* RexEventsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADB577B1C58404500DB28A9 /* RexEvents */ = {
+			isa = PBXGroup;
+			children = (
+				DADB577C1C58404500DB28A9 /* AppDelegate.swift */,
+				DADB577E1C58404500DB28A9 /* ViewController.swift */,
+				DADB57801C58404500DB28A9 /* Main.storyboard */,
+				DADB57861C58404500DB28A9 /* Assets.xcassets */,
+				DADB57881C58404500DB28A9 /* LaunchScreen.storyboard */,
+				DADB578B1C58404500DB28A9 /* Info.plist */,
+				DADB57831C58404500DB28A9 /* RexEvents.xcdatamodeld */,
+			);
+			path = RexEvents;
+			sourceTree = "<group>";
+		};
+		DADB57931C58404500DB28A9 /* RexEventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADB57941C58404500DB28A9 /* RexEventsTests.swift */,
+				DADB57961C58404500DB28A9 /* Info.plist */,
+			);
+			path = RexEventsTests;
+			sourceTree = "<group>";
+		};
+		DADB579E1C58404500DB28A9 /* RexEventsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DADB579F1C58404500DB28A9 /* RexEventsUITests.swift */,
+				DADB57A11C58404500DB28A9 /* Info.plist */,
+			);
+			path = RexEventsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADB57781C58404500DB28A9 /* RexEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADB57A41C58404500DB28A9 /* Build configuration list for PBXNativeTarget "RexEvents" */;
+			buildPhases = (
+				DADB57751C58404500DB28A9 /* Sources */,
+				DADB57761C58404500DB28A9 /* Frameworks */,
+				DADB57771C58404500DB28A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RexEvents;
+			productName = RexEvents;
+			productReference = DADB57791C58404500DB28A9 /* RexEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADB578F1C58404500DB28A9 /* RexEventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADB57A71C58404500DB28A9 /* Build configuration list for PBXNativeTarget "RexEventsTests" */;
+			buildPhases = (
+				DADB578C1C58404500DB28A9 /* Sources */,
+				DADB578D1C58404500DB28A9 /* Frameworks */,
+				DADB578E1C58404500DB28A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADB57921C58404500DB28A9 /* PBXTargetDependency */,
+			);
+			name = RexEventsTests;
+			productName = RexEventsTests;
+			productReference = DADB57901C58404500DB28A9 /* RexEventsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DADB579A1C58404500DB28A9 /* RexEventsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADB57AA1C58404500DB28A9 /* Build configuration list for PBXNativeTarget "RexEventsUITests" */;
+			buildPhases = (
+				DADB57971C58404500DB28A9 /* Sources */,
+				DADB57981C58404500DB28A9 /* Frameworks */,
+				DADB57991C58404500DB28A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADB579D1C58404500DB28A9 /* PBXTargetDependency */,
+			);
+			name = RexEventsUITests;
+			productName = RexEventsUITests;
+			productReference = DADB579B1C58404500DB28A9 /* RexEventsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADB57711C58404500DB28A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Paul O'Neill";
+				TargetAttributes = {
+					DADB57781C58404500DB28A9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DADB578F1C58404500DB28A9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DADB57781C58404500DB28A9;
+					};
+					DADB579A1C58404500DB28A9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DADB57781C58404500DB28A9;
+					};
+				};
+			};
+			buildConfigurationList = DADB57741C58404500DB28A9 /* Build configuration list for PBXProject "RexEvents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADB57701C58404500DB28A9;
+			productRefGroup = DADB577A1C58404500DB28A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADB57781C58404500DB28A9 /* RexEvents */,
+				DADB578F1C58404500DB28A9 /* RexEventsTests */,
+				DADB579A1C58404500DB28A9 /* RexEventsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADB57771C58404500DB28A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB578A1C58404500DB28A9 /* LaunchScreen.storyboard in Resources */,
+				DADB57871C58404500DB28A9 /* Assets.xcassets in Resources */,
+				DADB57821C58404500DB28A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB578E1C58404500DB28A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB57991C58404500DB28A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADB57751C58404500DB28A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB577F1C58404500DB28A9 /* ViewController.swift in Sources */,
+				DADB57851C58404500DB28A9 /* RexEvents.xcdatamodeld in Sources */,
+				DADB577D1C58404500DB28A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB578C1C58404500DB28A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB57951C58404500DB28A9 /* RexEventsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB57971C58404500DB28A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB57A01C58404500DB28A9 /* RexEventsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADB57921C58404500DB28A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADB57781C58404500DB28A9 /* RexEvents */;
+			targetProxy = DADB57911C58404500DB28A9 /* PBXContainerItemProxy */;
+		};
+		DADB579D1C58404500DB28A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADB57781C58404500DB28A9 /* RexEvents */;
+			targetProxy = DADB579C1C58404500DB28A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADB57801C58404500DB28A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB57811C58404500DB28A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADB57881C58404500DB28A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB57891C58404500DB28A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADB57A21C58404500DB28A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADB57A31C58404500DB28A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADB57A51C58404500DB28A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RexEvents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulgrid.RexEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DADB57A61C58404500DB28A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RexEvents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulgrid.RexEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DADB57A81C58404500DB28A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RexEventsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulgrid.RexEventsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RexEvents.app/RexEvents";
+			};
+			name = Debug;
+		};
+		DADB57A91C58404500DB28A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RexEventsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulgrid.RexEventsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RexEvents.app/RexEvents";
+			};
+			name = Release;
+		};
+		DADB57AB1C58404500DB28A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RexEventsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulgrid.RexEventsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RexEvents;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DADB57AC1C58404500DB28A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RexEventsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulgrid.RexEventsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RexEvents;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADB57741C58404500DB28A9 /* Build configuration list for PBXProject "RexEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB57A21C58404500DB28A9 /* Debug */,
+				DADB57A31C58404500DB28A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADB57A41C58404500DB28A9 /* Build configuration list for PBXNativeTarget "RexEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB57A51C58404500DB28A9 /* Debug */,
+				DADB57A61C58404500DB28A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DADB57A71C58404500DB28A9 /* Build configuration list for PBXNativeTarget "RexEventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB57A81C58404500DB28A9 /* Debug */,
+				DADB57A91C58404500DB28A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DADB57AA1C58404500DB28A9 /* Build configuration list for PBXNativeTarget "RexEventsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB57AB1C58404500DB28A9 /* Debug */,
+				DADB57AC1C58404500DB28A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DADB57831C58404500DB28A9 /* RexEvents.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DADB57841C58404500DB28A9 /* RexEvents.xcdatamodel */,
+			);
+			currentVersion = DADB57841C58404500DB28A9 /* RexEvents.xcdatamodel */;
+			path = RexEvents.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DADB57711C58404500DB28A9 /* Project object */;
+}
